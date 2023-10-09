@@ -1,0 +1,51 @@
+:root{
+    /* font size */
+    --fs-sm:17px;
+    --fs-md:18px;
+    --fs-lg:24px;
+    --fs-xl:44px;
+
+    /* font weight */
+    --fw-900:900;
+
+    /* color */
+    --text-black:#1E1E1E;
+    --text-yellow:#FCDB4F;
+    --text-light-yellow:#FDEA9F;
+
+}
+
+/* color */
+
+.text-black1{
+    color: var(--text-black);
+}
+
+.text-yellow{
+    color: var(--text-yellow);
+}
+
+.text-light-yellow{
+    color: var(--text-light-yellow);
+}
+
+/* font weight */
+
+.fw-900{
+    font-weight: 900;
+}
+
+/* font size */
+
+.fs-xl{
+    font-size: var(--fs-xl);
+}
+.fs-md{
+    font-size: var(--fs-md);
+}
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+.fs-lg{
+    font-size: var(--fs-lg);
+}
