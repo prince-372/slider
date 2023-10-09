@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito:wght@700;900&display=swap');
 @import url(./root.css);
 * {
   margin: 0 !important;
@@ -14,13 +14,15 @@
   letter-spacing: 0.88px !important;
 }
 
-/* line height  */
-.lh_31 {
-  line-height: 31px !important;
+/* font family */
+
+.ff-lora{
+  font-family: 'Lora', serif;
 }
-.lh_58 {
-  line-height: 58px !important;
-} 
+
+.ff-nunito{
+  font-family: 'Nunito', sans-serif;
+}
 
  /* testimonials underline  */
 .line::after {
@@ -108,7 +110,6 @@ img {
   display: block !important;
 }
 
-
 .mw-864{
     max-width: 864px;
 }
@@ -116,3 +117,11 @@ img {
 .slick-current{
   opacity: 1 !important;
 }
+
+/* line height  */
+.lh_31 {
+  line-height: 31px !important;
+}
+.lh_58 {
+  line-height: 58px !important;
+} 
