@@ -4,6 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Digital Agency" />
+  <meta name="description" content="Lorem
+              Ipsum is
+              simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+              been the industry's standard dummy text ever since the 1500s, when an unknown printer
+              took
+              type scrambled it to make a type specimen book. It has survived not only five centuries," />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://metatags.io/" />
+  <meta property="og:title" content="Digital Agency" />
+  <meta property="og:description" content="Lorem
+              Ipsum is
+              simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+              been the industry's standard dummy text ever since the 1500s, when an unknown printer
+              took
+              type scrambled it to make a type specimen book. It has survived not only five centuries," />
+  <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://metatags.io/" />
+  <meta property="twitter:title" content="Digital Agency" />
+  <meta property="twitter:description" content="Lorem
+              Ipsum is
+              simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+              been the industry's standard dummy text ever since the 1500s, when an unknown printer
+              took
+              type scrambled it to make a type specimen book. It has survived not only five centuries," />
+  <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+  <!-- Meta Tags Generated with https://metatags.io -->
   <title>Our Testimonials</title>
   <link rel="icon" href="./assets/images/icons8-favicon.gif">
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -16,8 +50,8 @@
     integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
+  <!-- slider -->
   <section class="vh-100 align-items-center justify-content-center d-flex ">
     <div class="container mx-auto my-auto">
       <p class="m-0 p-0 ff-nunito fs-xl fw-900  text-center  lh_58 spacing_08">Our
@@ -155,37 +189,37 @@
     $('.slider-for').slick({
       slidesToShow: 5,
       slidesToScroll: 1,
-      centerMode:true,
+      centerMode: true,
       arrows: false,
       // fade: true,
       asNavFor: '.slider-nav',
       responsive: [
         {
           breakpoint: 1024,
-          settings:{
+          settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
-            dots:true,
+            dots: true,
           }
-      },
+        },
 
-      {
-        breakpoint: 600,
-          settings:{
+        {
+          breakpoint: 600,
+          settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
-          }          
-
-      },
-      {
-        breakpoint: 480,
-          settings:{
-            slidesToShow: 1,
-            slidesToScroll: 1, 
           }
-      },
-  ]
+
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+      ]
     }
     );
     $('.slider-nav').slick({
